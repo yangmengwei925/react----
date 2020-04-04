@@ -1,0 +1,17 @@
+.content{
+    padding: 50px;
+    min-height: 500px;
+}
+.content_item{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: #d8d8d8;
+    margin: 15px;
+}
+.content_item p{
+    text-align: center;
+}
+.content_item img{
+    width: 100%;
+}

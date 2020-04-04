@@ -1,0 +1,22 @@
+[
+    {
+        "name":"首页",
+        "to":"/main/main",
+        "icon":"bank"
+    },
+    {
+        "name":"订单",
+        "to":"/main/order",
+        "icon":"database"
+    },
+    {
+        "name":"发现",
+        "to":"/main/find",
+        "icon":"search"
+    },
+    {
+        "name":"我的",
+        "to":"/main/my",
+        "icon":"smile"
+    }
+]

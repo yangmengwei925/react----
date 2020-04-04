@@ -1,0 +1,34 @@
+.top_p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+.top_p span{
+    color:blue;
+    margin:0 10px;
+}
+.header_ul{
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    height: 50px;
+    overflow: hidden;
+}
+.header_ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.header_ul li a{
+    text-decoration: none;
+    color: #333;
+
+}
+.activ{
+    background:yellowgreen;
+}

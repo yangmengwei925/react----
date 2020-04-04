@@ -1,0 +1,16 @@
+.talk_out{
+    width: 400px;
+    height: 500px;
+    border: 1px solid goldenrod
+}
+.title_img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.father{
+    text-align: left
+}
+.son{
+    text-align: right
+}

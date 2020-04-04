@@ -1,0 +1,43 @@
+[
+    {
+        "id":"0",
+        "city":"海淀区",
+        "doorFirst":"美容门店",
+        "doorSecond":"轮胎清洗",
+        "title":"第一个",
+        "time":"2019-09-09",
+        "price":"12",
+        "address":"234567890",
+        "sale":"2200",
+        "pic":"/images/1.png",
+        "filter":["4s店","维修厂","快修点"]
+
+    },
+    {
+        "id":"1",
+        "city":"门头沟区",
+        "doorFirst":"轮胎门店",
+        "doorSecond":"洗车",
+        "title":"第er个",
+        "time":"2019-09-20",
+        "price":"8",
+        "address":"23445670",
+        "sale":"2200",
+        "pic":"/images/2.png",
+        "filter":["4s店"]
+
+    },{
+        "id":"2",
+        "city":"朝阳区",
+        "doorFirst":"安装门店",
+        "doorSecond":"安装",
+        "time":"2019-09-30",
+        "title":"第san个",
+        "price":"16",
+        "address":"2fghjkl0",
+        "sale":"2200",
+        "pic":"/images/3.png",
+        "filter":["维修厂","快修点"]
+
+    }
+]

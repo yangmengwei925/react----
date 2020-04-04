@@ -1,0 +1,11 @@
+.tltle{
+    display: inline-block;
+    width:80px;
+    height: 40px;
+}
+.bgCCC{
+    background: #ccc
+}
+.active{
+    background: red
+}

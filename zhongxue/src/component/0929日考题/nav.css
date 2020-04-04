@@ -1,0 +1,23 @@
+ul{
+    display: inline-block;
+}
+.li_style{
+    list-style: none;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+}
+.li_style:hover{
+    background: green
+}
+.active{
+    background: red
+}
+.active:hover{
+    background: red
+}
+.images{
+    display: inline-block;
+    width: 100px;
+
+}

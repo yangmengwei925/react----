@@ -1,0 +1,81 @@
+[
+    {
+        "title": "热销",
+		"subTitle": "大家喜欢吃，才叫真好吃。",
+		"shopmenuFoods": [
+			{
+				"imgSrc": "//fuss10.elemecdn.com/d/30/fb92e47a936cb8754758b56109258jpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "酸辣土豆丝",
+				"mute": 0,
+				"price": 20
+			},
+			{
+				"imgSrc": "//fuss10.elemecdn.com/4/b4/0a8787ff7f64e7c3c406c65e357fajpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "宫保鸡丁",
+				"mute": 0,
+				"price":10
+			},
+			{
+				"imgSrc": "//fuss10.elemecdn.com/d/30/fb92e47a936cb8754758b56109258jpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "西红柿炒鸡蛋",
+				"mute": 0,
+				"price": 15
+			},
+			{
+				"imgSrc": "//fuss10.elemecdn.com/4/b4/0a8787ff7f64e7c3c406c65e357fajpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "糖醋排胡",
+				"mute": 0,
+				"price":30
+            },
+			{
+				"imgSrc": "//fuss10.elemecdn.com/d/30/fb92e47a936cb8754758b56109258jpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "豆腐",
+				"mute": 0,
+				"price": 5
+			},
+			{
+				"imgSrc": "//fuss10.elemecdn.com/4/b4/0a8787ff7f64e7c3c406c65e357fajpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "土豆",
+				"mute": 0,
+				"price":25
+            }
+        ]
+    },
+    		
+	{
+		"title": "优惠",
+		"subTitle": "美味又实惠，大家快来抢",
+		"shopmenuFoods": [
+			{
+				"imgSrc": "//fuss10.elemecdn.com/3/46/39ea500a9b96ceac9f7cab7350dcfjpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "素炒平菇",
+				"mute": 0,
+				"price": 5
+			},
+			{
+				"imgSrc": "//fuss10.elemecdn.com/a/18/c0a55bf24a2e5dba4c7fc083cc223jpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "干煸花菜",
+				"mute": 0,
+				"price":40
+			},
+				{
+				"imgSrc": "//fuss10.elemecdn.com/4/b4/0a8787ff7f64e7c3c406c65e357fajpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "酸辣白菜",
+				"mute": 0,
+				"price": 15
+            }
+        ]
+    },
+    {
+		"title": "米饭",
+		"subTitle": "",
+		"shopmenuFoods": [
+			{
+				"imgSrc": "//fuss10.elemecdn.com/8/26/4b39c1a21ec6c761b3682fa66c69bjpeg.jpeg?imageMogr2/thumbnail/100x100/format/webp/quality/85",
+				"name": "米饭【单点不配送】",
+				"mute": 0,
+				"price": 20
+			}
+		]
+	}
+]

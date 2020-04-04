@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #out{
+            background: red;
+            width: 100px;
+            height: 100px;
+        }
+        #click{
+            background: green;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <div id="out">
+        <div id="click">点击</div>
+    </div>
+</body>
+
+<script>
+
+    document.getElementById('click').addEventListener(
+        'click',()=>{
+            console.log('点击了')
+        }
+    )
+
+    document.getElementById('out').addEventListener(
+        'click',()=>{
+            console.log('out点击了')
+        }
+    )
+
+    //写一个函数去表示虚拟dom
+    function createDom(tagName,props,children){
+        const vDom ={
+            tagName,
+            props,
+            children
+        }
+        return vDom
+    }
+
+    const p    = createDom('p',null,['虚拟dom']);
+    const div  = createDom('div',{id:'trueDom',name:'候利杰'},[p]);
+
+    //虚拟dom 变成一个真实dom 并且放到页面
+    function changeDom(vdom){
+        const { tagName,props,children} = vdom;
+
+        //把标签创建出来
+        const tDom = document.createElement(tagName);
+
+        //把标签属性加入
+        if(props){
+            Object.keys(props).forEach(item => {
+                tDom.setAttribute(item,props[item])
+            });
+        }
+
+        //把标签的孩子渲染进去
+        children.forEach(item=>{
+           
+            if(typeof item === 'string'){
+                 //字符串
+                const Text = document.createTextNode(item);
+                tDom.appendChild(Text)
+            }
+            else{
+                //递归渲染 直到孩子节点是文本类型
+                tDom.appendChild(changeDom(item))
+            }
+           
+        })
+
+        return tDom
+    }
+
+    
+    //放进页面
+    function render(tDom,id,callback){
+        document.getElementById(id).appendChild(tDom);
+        callback()
+    }
+
+    //真实dom放进页面函数执行
+    render(changeDom(div),'root',()=>console.log('success'))
+
+
+    window.abc=function(){
+        return 'hello world'
+    }
+    
+    window.GaoJie =function(abc){
+        return abc()
+    }
+
+
+    new Promise((res)=>{
+        res('放假了')
+    })
+    
+</script>
+</html>

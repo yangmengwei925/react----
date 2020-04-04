@@ -1,0 +1,32 @@
+html,body,#root,ul,div{
+    padding: 0;
+    margin:0
+}
+.footer{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
+ul li{
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 25%;
+    float: left
+}
+ul li{
+    color: #ccc
+}
+ul li.actives{
+    color: red
+}
+.content_out{
+    background: #ccc
+}
+.content_out img{
+width: 50px;
+}
+

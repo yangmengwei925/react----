@@ -1,0 +1,9 @@
+html,body,ul,li,div,p{
+    padding: 0;
+    margin:0;
+    
+}
+.swiper-container{
+    width: 100%;
+    height: 300px;
+}
